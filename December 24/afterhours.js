@@ -9,7 +9,7 @@ var obj = {
 var a = prompt("Which keys do you want?");
 a = a.split(','); //This splits a string into an array. 
 //("key1,key2" => ['key1', 'key2'])
-console.log(a);
+//console.log(a);
 for (var i = 0; i < a.length; i = i + 1) {
   console.log(obj[a[i]]);
 }

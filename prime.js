@@ -10,7 +10,7 @@ var p = prompt("Enter a number:");
     else if(p >= 2){
         for(i = 2 ; i <= p/2 ; i++){
             if(p % i == 0){
-                //console.log("Composit Number");
+                console.log("Composit Number");
             }
             else{
                 console.log("Prime Number");

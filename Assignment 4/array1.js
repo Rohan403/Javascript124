@@ -8,11 +8,11 @@ var i = prompt("Enter first number");
  arr.push(i);
  i= prompt("Enter the third number:");
  arr.push(i);
- if(arr[0]>=arr[1] && arr[0]>=arr[2])
+ if(arr[0]>arr[1] && arr[0]>arr[2])
 	{
 	alert("Maximum Number is: " +arr[0]);
 	}
-	else if(arr[1]>=arr[0] && arr[1]>=arr[2])
+	else if(arr[1]>arr[0] && arr[1]>arr[2])
 	{
 	alert("Maximum Number is: " +arr[1]);
 	}
